@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#Adding To bin
+cp $0 /usr/bin/shodan-scan
+cp search.py /usr/bin
+chmod +x /usr/bin/shodan-scan
+#Now You Can Type 
+#   shodan-scan apache
+#To scan Apache shodan results
+
+
 clear
 echo                Shodan IP Scan Resulter V0.1
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
@@ -16,7 +25,8 @@ say using this script only for testing environment!
 sleep 0.1
 say Lets grab some IPs from Shodan.io
 sleep 0.5
-python2 search.py >> ip-tmp.txt | say loading, please wait.
+say loading, please wait.
+python3 search.py search $1
 clear
 sleep 0.4
 echo                Shodan IP Scan Resulter V0.1
@@ -28,7 +38,7 @@ echo This Script is running in background.
 sleep 1
 echo Might take a while till the screen continues.
 sleep 1
-./ping.sh >> results.txt
+sudo python3 search.py scan ip-temp.txt
 clear
 sleep 0.1
 echo                Shodan IP Scan Resulter V0.1
