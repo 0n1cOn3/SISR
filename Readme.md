@@ -1,62 +1,55 @@
-# Project Title
+# Shodan-IP-Scan-Resulter
 
-Simple overview of use/purpose.
+Get preanalyzed data from shodan
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+With Bash and Python, we can automatice the scripting setup into one process
+
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Linux Distrobution 
+* Python2.7
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
+* # chmod +x megascript.sh
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+./megascript.sh
 ```
 
 ## Help
 
 Any advise for common problems or issues.
 ```
-command to run if program contains helper info
+No issues known. Open a issues ticket is you found any.
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+0n1cOn3  
+Speedx
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+yet unknown
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [TheSpeedX](https://github.com/TheSpeedX/TBomb)
