@@ -60,7 +60,7 @@ echo                Shodan IP Scan Resulter V0.1
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 echo   Github: https://github.com/0n1cOn3/ShodanIPScanResulter
 echo   Whatsapp: https://cutt.ly/meaORzg 
-echo           "Drücken Sie eine beliebige Taste ... "
+echo           "Press any Key ... "
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 stty -icanon -echo min 1 time 0
 dd bs=1 count=1 >/dev/null 2>&1
