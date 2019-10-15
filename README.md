@@ -12,13 +12,17 @@ With Bash and Python, we can automatice the scripting setup into one process
 ### Dependencies
 
 * Linux Distrobution 
-* Python2.7
+* Python3
+* Shodan Module
 
 ### Installing
 
-* git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
-* # chmod +x megascript.sh
-
+```
+sudo apt install git python3 python3-pip
+git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
+python3 -m pip install shodan
+chmod +x megascript.sh
+```
 
 ### Executing program
 
@@ -52,4 +56,4 @@ yet unknown
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [TheSpeedX](https://github.com/TheSpeedX/TBomb)
+* [TheSpeedX](https://github.com/TheSpeedX)
