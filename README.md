@@ -34,7 +34,7 @@ chmod +x megascript.sh
 
 Any advise for common problems or issues.
 ```
-No issues known. Open a issues ticket is you found any.
+No issues known. Open a issues ticket if you found any.
 ```
 
 ## Authors
