@@ -1,6 +1,6 @@
 # Shodan-IP-Scan-Resulter
 
-Get preanalyzed data from shodan
+Simple Tool to search things from Shodan.io directly trought your Terminal 😀
 
 ## Description
 
@@ -41,11 +41,13 @@ No issues known. Open a issues ticket is you found any.
 
 Contributors names and contact info
 
-0n1cOn3  
-Speedx
+- 0n1cOn3   (Mail: 0n1cOn3@gmx.ch)
+- TheSpeedX (Mail: ggspeedx29@gmail.com)
 
 ## Version History
 
+* 0.1.1 
+    * Soon ! 😎
 * 0.1
     * Initial Release
 
