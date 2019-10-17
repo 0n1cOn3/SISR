@@ -15,9 +15,11 @@ macOS:
 * brew (The macOS Homebrew)
 * brew python3
 
-Linux Distrobution: 
+Linux Distribution: 
 * Python3
 * Shodan Module
+
+Shodan.io AIP Key
 
 ### Installing
 
@@ -33,6 +35,8 @@ sudo apt install git python3 python3-pip
 git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
 python3 -m pip install shodan
 chmod +x megascript.sh
+
+Open the search.py, and replace "API_SHODAN_KEY" with your own API Key.
 ```
 
 ### Executing program
