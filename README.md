@@ -1,10 +1,15 @@
 # Shodan-IP-Scan-Resulter [BETA]
 
 Simple Tool to search things from Shodan.io directly trought your Terminal 😀
+Scripts easy extendable 😎
 
 ## Description
 
 With Bash and Python, we can automatice the scripting setup into one process
+
+- get random IP's from Shodan.io
+- get analyzed with nmap
+- Results will be saved as text file. 
 
 
 ## Getting Started
@@ -49,7 +54,7 @@ Open the search.py, and replace "API_SHODAN_KEY" with your own API Key.
 
 Any advise for common problems or issues.
 ```
-No issues known. Open a issues ticket if you found any.
+Sometimes there are issues/problems, sometimes not. What do you think ? 
 ```
 
 ## Authors
@@ -60,7 +65,8 @@ Contributors names and contact info
 - TheSpeedX (Mail: ggspeedx29@gmail.com)
 
 ## Version History
-
+* 0.1.2b
+    * integrate self updating if choosen to be updating.
 * 0.1.1 
     * New GUI ---> OS Choice Menu
     * Bug fixing
