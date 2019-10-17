@@ -11,14 +11,25 @@ With Bash and Python, we can automatice the scripting setup into one process
 
 ### Dependencies
 
-* Linux Distrobution 
+macOS:
+* brew (The macOS Homebrew)
+* brew python3
+
+Linux Distrobution: 
 * Python3
 * Shodan Module
 
 ### Installing
 
 ```
+* macOS:
+brew install git python3 python3-pip
+
+* Linux:
 sudo apt install git python3 python3-pip
+
+* Generalizing:
+
 git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
 python3 -m pip install shodan
 chmod +x megascript.sh
