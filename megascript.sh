@@ -112,6 +112,7 @@ echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
          3 ) echo "Windows is currently not yet supported. Stay tuned!"
                 exit;;
 		 4 ) echo "nano results.txt"
+		 		exit;;
          0 ) exit;;
          * ) echo "Please enter 1,2,3,4 or 0"
      esac
