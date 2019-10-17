@@ -81,11 +81,6 @@ echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
               read -p " Press any Key ... ";;
          1 ) echo                Shodan IP Scan Resulter V0.1.1
 echo                Shodan IP Scan Resulter V0.1.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo   Github: https://github.com/0n1cOn3/ShodanIPScanResulter
-echo   Whatsapp: https://cutt.ly/meaORzg 
-echo                   " Press any Key ... "
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
             exit;;
          3 ) echo "Windows is currently not yet supported. Stay tuned!"
                 exit;;
