@@ -1,4 +1,4 @@
-# Shodan-IP-Scan-Resulter
+# Shodan-IP-Scan-Resulter [BETA]
 
 Simple Tool to search things from Shodan.io directly trought your Terminal 😀
 
