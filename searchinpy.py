@@ -4,7 +4,7 @@ import shodan
 if len(sys.argv)!=3:
 	print('Wrong Usage')
 if sys.argv[1].lower()=='search':
-	SHODAN_API_KEY = "0NhVuVMOQvCrjNyTu6gtwmLHs5sFCEn3"
+	SHODAN_API_KEY = "SHODAN_API_KEY_GOES_HERE"
 	api = shodan.Shodan(SHODAN_API_KEY)
 	try:
 		results = api.search(sys.argv[2])
