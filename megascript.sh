@@ -15,8 +15,8 @@ until [ "$selection" = "0"]; do
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	 echo "    Made by 0n1cOn3                                         "
 	 echo "     	Script only for                                    "
-	 echo "				   test purposes                               "
-	 echo "     		        !Automated Script!                     "
+	 echo "				   test purposes                   "
+	 echo "     		        !Automated Script!                 "
 	 echo ""
      echo "Setup Menu:"
      echo ""
@@ -42,7 +42,8 @@ until [ "$selection" = "0"]; do
 				sleep 0.1
 				say Lets grab some IPs from Shodan.io
 				sleep 0.5
-				echo "PASSWORD" | sudo -S python2 search.py >> ip.txt | say loading, please wait.
+#				echo "PASSWORD" |python search.py search apache >> ip.txt | say loading, please wait
+				python search.py search apache >> ip.txt | say loading, please wait.
 				clear
 				sleep 0.4
 	echo                Shodan IP Scan Resulter V0.1.1
@@ -54,7 +55,7 @@ until [ "$selection" = "0"]; do
 	sleep 1
 	echo Might take a while till the screen continues.
 	sleep 1
-	./ping.sh >> results.txt
+	sudo -S python search.py scan ip-temp.txt
 	clear
 		sleep 0.1
 echo                Shodan IP Scan Resulter V0.1.1
@@ -79,29 +80,7 @@ echo   Whatsapp: https://cutt.ly/meaORzg
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
               read -p " Press any Key ... ";;
          1 ) echo                Shodan IP Scan Resulter V0.1.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo IPs Loaded! Continue Script...
-sleep 1
-echo This Script is running in background.
-sleep 1
-echo Might take a while till the screen continues.
-sleep 1
-echo "PASSWORD" | sudo -S python2 searchinpy.py
-clear
-sleep 0.1
 echo                Shodan IP Scan Resulter V0.1.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo The result will be loaded into nano. Just a second please.
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-sleep 2
-nano results.txt
-clear
-echo                Shodan IP Scan Resulter V0.1.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo   Github: https://github.com/0n1cOn3/ShodanIPScanResulter
-echo   Whatsapp: https://cutt.ly/meaORzg 
-echo                   " Press any Key ... "
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
             exit;;
          3 ) echo "Windows is currently not yet supported. Stay tuned!"
                 exit;;
