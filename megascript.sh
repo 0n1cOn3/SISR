@@ -25,16 +25,32 @@ until [ "$selection" = "0"]; do
      echo "1 - Linux & Emulators"
      echo "2 - MacOS"
      echo "3 - Windows (planned)"
-	 echo ""
 	 echo "4 - Open Results Text Document"
+	 echo "5 - Update Shodan-IP-Scan-Resulter"
      echo ""
-     echo "0 - Exit program"
+     echo "0 - Exit Shodan-IP-Scan-Resulter"
      echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-     echo -n "Enter Selection:"
+     echo -n "Enter OS Selection:"
      read selection
      echo ""
      case $selection in
-         2 )
+	     5 )
+			 clear
+			 apt install git -y
+			 echo "Downloading Latest Files..."
+			 git clone https://github.com/0n1c0n3/Shodan-IP-Scan-Resulter
+			 if [[ -s Shodan-IP-Scan-Resulter/megascript.sh ]];then
+			 cd Shodan-IP-Scan-Resulter
+			 cp -r -f * .. > temp
+			 cd ..
+			 rm -rf  Shodan-IP-Scan-Resulter >> temp
+			 rm temp
+			 chmod +x megascipt.sh
+			 echo "Shodan-IP-Scan-Resulter Will Restart Now..."
+			 sleep 3
+			 ./megascript.sh
+			 exit;;
+		 2 )
 			 clear 
 	 	echo                Shodan IP Scan Resulter V0.1.1
 	 	echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
@@ -146,6 +162,6 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 		 		nano results.txt
 		 		exit;;
 				0 ) exit;;
-         * ) echo "Please enter 1,2,3,4 or 0"
+         * ) echo "Please enter 1,2,3,4,5 or 0"
      esac
 done
