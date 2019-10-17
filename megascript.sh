@@ -86,15 +86,9 @@ echo This Script is running in background.
 sleep 1
 echo Might take a while till the screen continues.
 sleep 1
-./ping.sh >> results.txt
+echo "PASSWORD" | sudo -S python2 searchinpy.py
 clear
 sleep 0.1
-echo                Shodan IP Scan Resulter V0.1.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo Scan finished!
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-sleep 2
-clear
 echo                Shodan IP Scan Resulter V0.1.1
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 echo The result will be loaded into nano. Just a second please.
@@ -113,7 +107,7 @@ echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
                 exit;;
 		 4 ) echo "nano results.txt"
 		 		exit;;
-         0 ) exit;;
+				0 ) exit;;
          * ) echo "Please enter 1,2,3,4 or 0"
      esac
 done
