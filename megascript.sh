@@ -9,6 +9,8 @@ selection=
 until [ "$election" = "0"]; do
 	echo "1 - macOS"
 	echo "2 - Linux/Emulator"
+	echo "9 - Help"
+	echo -n "Enter Selection: "
 read selection
     echo ""
     case $selection in
@@ -20,12 +22,10 @@ read selection
 		exit;;
 		2 ) echo "Sudo requiered" | sudo -S apt install figlet git python3 -y
 		echo ""
-        * ) echo "Please enter 1 or 2"
+        9 ) echo "Please enter 1 or 2"
 		echo ""
 		sleep 2
 		exit;;
-     esac
-done
 echo ""
 selection=
 until [ "$selection" = "0"]; do
