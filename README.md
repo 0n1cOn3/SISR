@@ -18,6 +18,7 @@ macOS:
 Linux Distribution: 
 * Python3
 * Shodan Module
+
 ** Optional: LinuxBrew'
 
 Shodan.io AIP Key
