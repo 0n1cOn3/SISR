@@ -69,6 +69,7 @@ Contributors names and contact info
 
 ## Version History
 * 0.2.1
+	* Added Update Functions for used packages
 	* Code optimizing
 	* GUI edited
 * 0.2
