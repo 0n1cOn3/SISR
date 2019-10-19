@@ -25,6 +25,7 @@ until [ "$selection" = "0"]; do
 		echo  "					        Finish                             "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		sleep 3
+		./megascript
 		exit;;
 	2 )
 		echo  "            Shodan IP Scan Resulter Core Updater            "
@@ -37,7 +38,7 @@ until [ "$selection" = "0"]; do
 		echo  "					        Finish                             "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		sleep 3
-		exit;;
+		./megascript
 	3 )
 		echo  "            Shodan IP Scan Resulter Core Updater            "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -58,7 +59,7 @@ until [ "$selection" = "0"]; do
 		echo  "					        Finish                             "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		sleep 3
-		exit;;
+		./megascript
 	4 )
 		echo  "            Shodan IP Scan Resulter Core Updater            "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
