@@ -154,7 +154,7 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 			 sleep 2
 			        python3 update.py
 					exit;;
-				6 )
+					6 ) exit;;
 				0 ) exit;;
          * ) echo "Please enter 1,2,3,4,5 or 0"
      esac
