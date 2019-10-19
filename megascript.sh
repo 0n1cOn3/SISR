@@ -30,6 +30,8 @@ until [ "$selection" = "0"]; do
 	 echo ""
 	 echo "4 - Open Results Text Document"
      echo "5 - Update Script"
+	 echo "6 - Change Shodan API Adress"
+	 echo ""
      echo "0 - Exit program"
      echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
      echo -n "Enter Selection:"
