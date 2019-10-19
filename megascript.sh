@@ -13,7 +13,7 @@ until [ "$selection" = "0"]; do
 	clear
 	 echo "               Shodan IP Scan Resulter V0.2.1               "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-	 echo "Made by <3 from 0n1cOn3"
+	 echo "Made with <3 by 0n1cOn3"
 	 echo "Script only for"
 	 echo "test purposes "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
