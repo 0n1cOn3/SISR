@@ -13,10 +13,10 @@ until [ "$selection" = "0"]; do
 	clear
 	 echo "               Shodan IP Scan Resulter V0.1.1               "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-	 echo "    Made by 0n1cOn3                                         "
-	 echo "     	Script only for                                    "
-	 echo "				   test purposes                   			   "
-	 echo "     		        !Automated Script!                 	   "
+	 echo "Made by <3 from 0n1cOn3"
+	 echo "Script only for"
+	 echo "test purposes "
+	 echo ""
 	 echo ""
      echo "Setup Menu:"
      echo ""
@@ -50,9 +50,9 @@ until [ "$selection" = "0"]; do
 				say Lets grab some IPs from Shodan.io
 		echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 				sleep 0.5
-				python search.py search apache >> ip.txt | say loading, please wait.
+				python search.py search apache >> ip.txt | say loading, please wait. && sleep 5
 				clear
-				sleep 0.4
+				sleep 1
 	echo                "Shodan IP Scan Resulter V0.1.1"
 	echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo "IPs loaded, lets start scan! This will take really some time! Be Patience!"
