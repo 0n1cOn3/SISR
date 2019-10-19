@@ -2,31 +2,37 @@
 
 clear
 if [[ -s update.bin ]];then
-	echo "All requirements installed..."
+	echo "All requirements are installed..."
 else
 echo 'Installing requirements...'
+
 selection=
 until [ "$election" = "0"]; do
 	echo "1 - macOS"
 	echo "2 - Linux/Emulator"
 	echo "9 - Help"
 	echo -n "Enter Selection: "
-read selection
-    echo ""
-    case $selection in
+	read selection
+   	 	echo ""
+    	case $selection in
 		1 ) "/usr/bin/ruby -e" "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		"brew install figlet"
 		"brew install git"
 		"brew install python3"
+		pip3 install shodan
 		sleep 2
 		exit;;
-		2 ) echo "Sudo requiered" | sudo -S apt install figlet git python3 -y
-		echo ""
-        9 ) echo "Please enter 1 or 2"
-		echo ""
-		sleep 2
+		2 ) echo "Sudo will be used!" | sudo -S apt install figlet git python3 -y
+		pip3 install shodan
 		exit;;
-echo ""
+		9 ) 
+		echo "Please enter 1 or 2"
+		echo ""
+		echo "This menu is for updating Shodan-IP-Scan-Resulter"
+		read -p " Press any Key ... ";;
+     esac
+done
+		
 selection=
 until [ "$selection" = "0"]; do
 	clear
@@ -70,11 +76,10 @@ until [ "$selection" = "0"]; do
 			 cd ..
 			 rm -rf  Shodan-IP-Scan-Resulter >> temp
 			 rm temp
-			 chmod +x megascipt.sh
 			 echo "Shodan-IP-Scan-Resulter Will Restart Now..."
 			 sleep 3
-			 ./megascript.sh
-			 exit;;
+			 chmod +x megascipt.sh && ./megascript.sh
+		     fi
 		 2 )
 			 clear 
 	 	echo      Shodan IP Scan Resulter V0.1.1
