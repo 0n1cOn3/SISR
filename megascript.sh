@@ -1,13 +1,4 @@
 #!/bin/bash
-
-clear
-echo                Shodan IP Scan Resulter V0.2.1
-echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-echo      Made by 0n1cOn3
-echo      		Script only for
-echo				test purposes
-echo      		!Automated Script!
-echo ""
 selection=
 until [ "$selection" = "0"]; do
 	clear
@@ -24,7 +15,7 @@ until [ "$selection" = "0"]; do
      echo ""
 	 echo "Choose your current Operating System (OS)"
 	 echo ""
-     echo "1 - Linux & Emulators"
+     echo "1 - Linux (Debian based) & Emulators"
      echo "2 - MacOS"
      echo "3 - Windows (planned)"
 	 echo ""
