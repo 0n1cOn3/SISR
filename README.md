@@ -12,12 +12,13 @@ With Bash and Python, we can automatice the scripting setup into one process
 ### Dependencies
 
 macOS:
-* brew (The macOS Homebrew)
+* brew' (The macOS Homebrew)
 * brew python3
 
 Linux Distribution: 
 * Python3
 * Shodan Module
+** Optional: LinuxBrew'
 
 Shodan.io AIP Key
 
@@ -52,6 +53,12 @@ Any advise for common problems or issues.
 No issues known. Open a issues ticket if you found any.
 ```
 
+
+## Ideas for implemenation
+
+* Enter directly your Shodan.io API Key while the script is running
+* Windows & Windows WSL Support
+
 ## Authors
 
 Contributors names and contact info
@@ -61,6 +68,9 @@ Contributors names and contact info
 
 ## Version History
 
+* 0.2
+	* Now you can easy update the script trought 
+	* Bug fixing
 * 0.1.1 
     * New GUI ---> OS Choice Menu
     * Bug fixing
