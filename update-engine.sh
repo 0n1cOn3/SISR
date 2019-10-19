@@ -1,3 +1,4 @@
+#!/bin/bash
 selection=
 until [ "$selection" = "0"]; do
 	clear
