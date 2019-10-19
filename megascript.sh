@@ -157,6 +157,7 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 					6 ) echo "Change your Shodan API" 
 					sleep 2
 					nano search.py
+					;;
 				0 ) exit;;
          * ) echo "Please enter 1,2,3,4,5 or 0"
      esac
