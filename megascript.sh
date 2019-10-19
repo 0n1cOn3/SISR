@@ -27,7 +27,7 @@ until [ "$selection" = "0"]; do
      echo "3 - Windows (planned)"
 	 echo ""
 	 echo "4 - Open Results Text Document"
-     echo ""
+     echo "5 - Update Script"
      echo "0 - Exit program"
      echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
      echo -n "Enter Selection:"
@@ -144,7 +144,10 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
                 exit;;
 		 4 ) echo "Open Results"
 		 		nano results.txt
-		 		exit;;
+			 exit;;
+			 5 ) echo "Update TBomb"
+			        python3 update.py
+					exit;;
 				0 ) exit;;
          * ) echo "Please enter 1,2,3,4 or 0"
      esac
