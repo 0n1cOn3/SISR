@@ -68,7 +68,9 @@ Contributors names and contact info
 - TheSpeedX (Mail: ggspeedx29@gmail.com)
 
 ## Version History
-
+* 0.2.1
+	* Code optimizing
+	* GUI edited
 * 0.2
 	* Now you can easy update the script trought 
 	* Bug fixing

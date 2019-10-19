@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo                Shodan IP Scan Resulter V0.2
+echo                Shodan IP Scan Resulter V0.2.1
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 echo      Made by 0n1cOn3
 echo      		Script only for
@@ -11,13 +11,15 @@ echo ""
 selection=
 until [ "$selection" = "0"]; do
 	clear
-	 echo "               Shodan IP Scan Resulter V0.2               "
+	 echo "               Shodan IP Scan Resulter V0.2.1               "
 	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	 echo "Made by <3 from 0n1cOn3"
 	 echo "Script only for"
 	 echo "test purposes "
-	 echo ""
-	 echo ""
+	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+	 echo   "Github: https://github.com/0n1cOn3/ShodanIPScanResulter"
+	 echo   "Whatsapp: https://cutt.ly/meaORzg "
+	 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
      echo "Setup Menu:"
      echo ""
 	 echo "Choose your current Operating System (OS)"
@@ -36,9 +38,9 @@ until [ "$selection" = "0"]; do
      case $selection in
          2 )
 			 clear 
-	 	echo                Shodan IP Scan Resulter V0.2
+	 	echo                Shodan IP Scan Resulter V0.2.1
 	 	echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-		 say Shodan IP Scan Resulter V0.2
+		 say Shodan IP Scan Resulter V0.2.1
 		 		sleep 0.1
 				echo "Made by 0n1cOn3"
 				say made by 0n1cOn3
@@ -53,7 +55,7 @@ until [ "$selection" = "0"]; do
 				python search.py search apache >> ip.txt | say loading, please wait. && sleep 5
 				clear
 				sleep 1
-	echo                "Shodan IP Scan Resulter V0.2"
+	echo                "Shodan IP Scan Resulter V0.2.1"
 	echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo "IPs loaded, lets start scan! This will take really some time! Be Patience!"
 	say IPs loaded, lets start scan! This will take really some time! Be Patience!
@@ -67,38 +69,37 @@ until [ "$selection" = "0"]; do
 	sudo -S python search.py scan ip-temp.txt
 	clear
 		sleep 0.1
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo "Scan finished!"
 say Scan finished!
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 sleep 2
 clear
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-echo "The result will be loaded into nano. Just a second please."
-say The result will be loaded into nano. Just a second please..
+echo "The result will be loaded to nano. Just a second please."
+say The result will be loaded to nano. Just a second please..
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 sleep 1
 nano results.txt
 clear
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo "  Github: https://github.com/0n1cOn3/ShodanIPScanResulter "
 echo "  Whatsapp: https://cutt.ly/meaORzg "
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
               read -p " Press any Key ... ";;
          1 ) clear
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-echo "     Made by 0n1cOn3 "
-echo "     		Script only for "
-echo "				test purposes "
-echo "		  		!Automated Script!"
+echo "Made by 0n1cOn3 "
+echo "Script only for "
+echo "test purposes "
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 sleep 2
 clear
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo "Lets grab some IPs from Shodan.io"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -106,7 +107,7 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 				python search.py search apache >> ip.txt
 				clear
 				sleep 0.4
-	echo                "Shodan IP Scan Resulter V0.2"
+	echo                "Shodan IP Scan Resulter V0.2.1"
 	echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo "IPs loaded, lets start scan! This will take really some time! Be Patience!"
 	sleep 1
@@ -120,21 +121,21 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 	sudo -S python search.py scan ip-temp.txt
 	clear
 		sleep 0.1
-echo "               Shodan IP Scan Resulter V0.2"
+echo "               Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo "Scan finished!"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 sleep 2
 clear
-echo                "Shodan IP Scan Resulter V0.2"
+echo                "Shodan IP Scan Resulter V0.2.1"
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-echo "The result will be loaded into nano. Just a second please."
+echo "The result will be loaded to nano. Just a second please."
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 sleep 1
 nano results.txt
 sleep 0.5
 clear
-echo                Shodan IP Scan Resulter V0.2
+echo                Shodan IP Scan Resulter V0.2.1
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo   "Github: https://github.com/0n1cOn3/ShodanIPScanResulter"
 echo   "Whatsapp: https://cutt.ly/meaORzg "
@@ -146,13 +147,14 @@ echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞�
 		 		nano results.txt
 			 exit;;
 			 5 ) clear
-			 echo                Shodan IP Scan Resulter V0.2
+			 echo                Shodan IP Scan Resulter V0.2.1
 			 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			 echo "Update Shodan IP Scan Resulter"
 			 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			 sleep 2
 			        python3 update.py
 					exit;;
+				6 )
 				0 ) exit;;
          * ) echo "Please enter 1,2,3,4,5 or 0"
      esac
