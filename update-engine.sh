@@ -78,6 +78,6 @@ until [ "$selection" = "0"]; do
 				sleep 5
 				exit;;
 					0 ) exit;;
-	            		* ) echo "Please enter 1,2,3,4 or 0 for exit"
+	            		* ) echo "Please enter 1,2,3 or 0 for exit"
 	  esac
 done
