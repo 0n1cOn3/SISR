@@ -15,6 +15,7 @@ until [ "$selection" = "0"]; do
     echo ""
     case $selection in
 	1 )
+	clear
 	echo  "  Shodan IP Scan Resulter Core Updater  "
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo  "	        Install Requirements           "
@@ -28,6 +29,7 @@ until [ "$selection" = "0"]; do
 	./megascript
 	exit;;
 		2 )
+		clear
 		echo  "  Shodan IP Scan Resulter Core Updater  "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		echo  "	        Install Requirements           "
@@ -41,6 +43,7 @@ until [ "$selection" = "0"]; do
 		./megascript
 		exit;;
 			3 )
+			clear
 			echo  "  Shodan IP Scan Resulter Core Updater  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			echo  "Install Brew                "
@@ -63,6 +66,7 @@ until [ "$selection" = "0"]; do
 			./megascript.sh
 		    exit;;
 				4 )
+				clear
 				echo  "  Shodan IP Scan Resulter Core Updater  "
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 				echo  "Not yet supported. Sorry :(       "
