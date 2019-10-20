@@ -15,8 +15,8 @@ until [ "$selection" = "0"]; do
      echo ""
 	 echo "Choose your current Operating System (OS)"
 	 echo ""
-     echo "1 - Linux (Debian based) & Emulators"
-     echo "2 - MacOS"
+     echo "1 - macOS"
+     echo "2 - Linux (Debian based) & Emulators"
      echo "3 - Windows (planed)"
 	 echo ""
 	 echo "4 - Open Results Text Document"
@@ -31,7 +31,7 @@ until [ "$selection" = "0"]; do
      read selection
      echo ""
  case $selection in
- 2 )
+ 1 )
 clear 
 echo                Shodan IP Scan Resulter V0.2.1
 echo ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
@@ -85,7 +85,7 @@ echo "  Github: https://github.com/0n1cOn3/ShodanIPScanResulter "
 echo "  Whatsapp: https://cutt.ly/meaORzg "
 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 read -p " Press any Key ... ";;
-         1 ) clear
+         2 ) clear
 		 echo                "Shodan IP Scan Resulter V0.2.1"
 		 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		 echo "Made by 0n1cOn3 "
@@ -129,10 +129,10 @@ read -p " Press any Key ... ";;
 		 nano results.txt
 		 sleep 0.5
 		 clear
-		 echo                Shodan IP Scan Resulter V0.2.1
+		 echo "              Shodan IP Scan Resulter V0.2.1.               "
 		 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		 echo   "Github: https://github.com/0n1cOn3/ShodanIPScanResulter"
-		 echo   "Whatsapp: https://cutt.ly/meaORzg "
+		 echo " *Github: https://github.com/0n1cOn3/ShodanIPScanResulter.  "
+		 echo " *Whatsapp: https://cutt.ly/meaORzg                         "
 		 echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
           exit;;
          		3 )
@@ -148,30 +148,33 @@ read -p " Press any Key ... ";;
 						echo "Open Results"
 		 				nano results.txt
 			 	   		exit;;
-			 		   		6 ) clear
-			 			   		echo                Shodan IP Scan Resulter V0.2.1
-			 				    echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			 				    echo "Update Shodan IP Scan Resulter"
-			 				    echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			 				    sleep 2
-			        			python3 update.py
+						5 ) 
+						echo "              Shodan IP Scan Resulter V0.2.1                "
+						echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+						echo "                  Change your Shodan API                    " 
+						echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+						sleep 2
+						nano search.py
+						exit;;
+			 		   		6 ) 
+							clear
+			 			   	echo "              Shodan IP Scan Resulter V0.2.1                "
+			 				echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+			 			    echo "Update Shodan IP Scan Resulter"
+			 				echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+			 				sleep 2
+			        	    python3 update.py
+							exit;;
+									
+								7 ) 
+					            echo "              Shodan IP Scan Resulter V0.2.1                "
+			 					echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+								echo "               Update Shodan IP Scan Core"
+			 					echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+								sleep 3
+								chmod +x update-engine.sh
+								./update-engine.sh
 								exit;;
-									5 ) 
-										echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-										echo "                  Change your Shodan API                    " 
-										echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-										sleep 2
-										nano search.py
-										exit;;
-								 	   			7 ) 
-					             					   						   Shodan IP Scan Resulter V0.2.1
-			 					 						  echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-								 						  echo "               Update Shodan IP Scan Core"
-			 					 					 	  echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-								 					 	  sleep 3
-								 					 	  chmod +x update-engine.sh
-								 					 	  ./update-engine.sh
-								 					 	  exit;;
 				0 ) exit;;
          * ) echo "Please enter 1,2,3,4,5,6 or 0 for exit"
      esac
