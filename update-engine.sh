@@ -59,7 +59,7 @@ until [ "$selection" = "0"]; do
 			echo  "					        Finish                             "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			sleep 3
-		./megascript;;
+		    exit;;
 				4 )
 				echo  "            Shodan IP Scan Resulter Core Updater            "
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -67,3 +67,7 @@ until [ "$selection" = "0"]; do
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 				sleep 5
 				exit;;
+					0 ) exit;;
+	            		* ) echo "Please enter 1,2,3,4 or 0 for exit"
+	  esac
+done
