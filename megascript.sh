@@ -167,11 +167,6 @@ read -p " Press any Key ... ";;
 							exit;;
 									
 								7 ) 
-					            echo "              Shodan IP Scan Resulter V0.2.1                "
-			 					echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-								echo "               Update Shodan IP Scan Core"
-			 					echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-								sleep 3
 								chmod +x update-engine.sh
 								./update-engine.sh
 								exit;;

@@ -24,7 +24,7 @@ until [ "$selection" = "0"]; do
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	echo  "				   Finish                  "     
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-	sleep 3
+	sleep 2
 	./megascript
 	exit;;
 		2 )
@@ -37,19 +37,19 @@ until [ "$selection" = "0"]; do
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		echo  "				   Finish                  "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		sleep 3
+		sleep 2
 		./megascript
 		exit;;
 			3 )
 			echo  "  Shodan IP Scan Resulter Core Updater  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			echo  "			   Install Brew                "
+			echo  "Install Brew                "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 			clear
 			echo  "  Shodan IP Scan Resulter Core Updater  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			echo  "	        Install Requirements           "
+			echo  "Install Requirements           "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			brew install python3
 			pip install shodan
@@ -57,14 +57,15 @@ until [ "$selection" = "0"]; do
 			clear
 			echo  "  Shodan IP Scan Resulter Core Updater  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			echo  "				   Finish                  "
+			echo  "Finish                  "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			sleep 3
+			./megascript
 		    exit;;
 				4 )
 				echo  "  Shodan IP Scan Resulter Core Updater  "
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-				echo  "      Not yet supported. Sorry :(       "
+				echo  "Not yet supported. Sorry :(       "
 				echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 				sleep 5
 				exit;;
