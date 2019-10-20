@@ -176,6 +176,6 @@ read -p " Press any Key ... ";;
 								./update-engine.sh
 								exit;;
 				0 ) exit;;
-         * ) echo "Please enter 1,2,3,4,5,6 or 0 for exit"
+         * ) echo "Please enter 1,2,3,4,5,6,7 or 0 for exit"
      esac
 done
