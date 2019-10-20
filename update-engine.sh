@@ -22,7 +22,7 @@ until [ "$selection" = "0"]; do
 	sudo -S apt install python3 python3-pip
 	echo  "            Shodan IP Scan Resulter Core Updater            "
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-	echo  "					        Finish                             "
+	echo  "				Finish                             "
 	echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 	sleep 3
 	./megascript
@@ -35,13 +35,13 @@ until [ "$selection" = "0"]; do
 		apk install python3 python3-pip
 		echo  "            Shodan IP Scan Resulter Core Updater            "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-		echo  "					        Finish                             "
+		echo  "				Finish                             "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		sleep 3
 		./megascript
 		exit;;
 			3 )
-				echo  "            Shodan IP Scan Resulter Core Updater            "
+			echo  "            Shodan IP Scan Resulter Core Updater            "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			echo  "					      Install Brew                         "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
@@ -57,7 +57,7 @@ until [ "$selection" = "0"]; do
 			clear
 			echo  "            Shodan IP Scan Resulter Core Updater            "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-			echo  "					        Finish                             "
+			echo  "				Finish                             "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 			sleep 3
 		    exit;;
