@@ -38,7 +38,8 @@ until [ "$selection" = "0"]; do
 		echo  "					        Finish                             "
 		echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 		sleep 3
-		./megascript;;
+		./megascript
+		exit;;
 			3 )
 				echo  "            Shodan IP Scan Resulter Core Updater            "
 			echo  "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
