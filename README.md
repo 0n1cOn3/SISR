@@ -68,6 +68,9 @@ Contributors names and contact info
 - TheSpeedX (Mail: ggspeedx29@gmail.com)
 
 ## Version History
+* 0.2
+	* Code Optimization
+	* Added normal Script Mode for macOS
 * 0.2.1
 	* Added Update Functions for used packages
 	* Code optimizing
