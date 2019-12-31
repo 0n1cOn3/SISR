@@ -42,6 +42,9 @@ Open the search.py, and replace "API_SHODAN_KEY" with your own API Key.
 ```
 
 ### Executing program
+```
+Replace the "SHODAN-API-HERE" in search.py with your own Shodan API Key!
+or the Script will fail!
 
 ```
 ./megascript.sh
