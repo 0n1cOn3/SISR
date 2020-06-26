@@ -20,7 +20,7 @@ until [ "$selection" = "0"]; do
      echo "1 - macOS (Spoken Menu)"
 	 echo "2 - macOS (Only Text)"
      echo "3 - Linux (Debian based) & Emulators"
-     echo "4 - Windows (planed)"
+     echo "4 - Windows (planned)"
 	 echo ""
 	 echo "5 - Open Results Text Document"
      echo "6 - Change Shodan API Adress"
