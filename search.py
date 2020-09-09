@@ -1,10 +1,14 @@
 import sys,os
 import shodan
+from dotenv import load_dotenv
+
+load_dotenv()
+
+SHODAN_API_KEY = int(os.getenv("API_KEY"))
 
 if len(sys.argv)!=3:
 	print('Wrong Usage')
 if sys.argv[1].lower()=='search':
-	SHODAN_API_KEY = "SHODAN_API_KEY_GOES_HERE"
 	api = shodan.Shodan(SHODAN_API_KEY)
 	try:
 		results = api.search(sys.argv[2])
