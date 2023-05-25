@@ -1,8 +1,6 @@
 <h1 align="center">🕵️  SISR - Shodan-IP-Scan-Resulter</h1>
 
 Simple tool to search things from Shodan.io directly through your terminal! 🐍
-Description
-
 With Bash and Python, we can automate the scripting setup into one process.
 
 ## Getting Started
