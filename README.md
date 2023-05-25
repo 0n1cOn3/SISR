@@ -1,4 +1,4 @@
-<h1 align="center">🕵️ Shodan-IP-Scan-Resulter</h1>
+<h1 align="center">🕵️  SISR - Shodan-IP-Scan-Resulter</h1>
 
 Simple tool to search things from Shodan.io directly through your terminal! 🐍
 Description
