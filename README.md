@@ -9,11 +9,13 @@ Dependencies:
 ### macOS:
 
     brew (The macOS Homebrew)
-    brew python3
+    brew python3 python3-pip
+    pip3 install -r requirements.txt
 
 ### Linux Distribution:
 
     Python3
+    Python3 pip
     Shodan Module
 
 Optional: 
@@ -28,7 +30,7 @@ Shodan.io API Key
     Generalizing:
 
     git clone https://github.com/0n1cOn3/Shodan-IP-Scan-Resulter.git
-    python3 -m pip install shodan
+    pip3 install -r requirements.txt
     chmod +x megascript.sh
 
 Open the search.py, and replace "API_SHODAN_KEY" with your own API Key.
@@ -56,11 +58,14 @@ Contributors' names and contact info:
     TheSpeedX (Mail: ggspeedx29@gmail.com) 👤
 
 ### Version History
+    0.3
+        Some parts of SISR code has been refactored
+        NEW: pip3 requirements added
 
     0.2.1
         Added Update Functions for used packages
         Code optimization
-        GUI edited
+        GUI changed
     0.2
         Code optimization
         Added normal Script Mode for macOS
