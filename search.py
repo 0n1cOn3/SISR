@@ -3,31 +3,34 @@ import os
 import shodan
 import argparse
 from dotenv import load_dotenv
+import subprocess
 
-def search(query):
+def search(api, query):
     try:
         results = api.search(query)
         with open("ip-temp.txt", "w") as f:
             for result in results["matches"]:
                 ip = result["ip_str"]
-                print("Found IP:", ip)
+                print(f"Found IP: {ip}")
                 f.write(ip + "\n")
     except shodan.exception.APIError as e:
-        print("Error occurred during search:", e)
+        print(f"Error occurred during search: {e}")
         sys.exit(1)
 
 def scan(file):
     try:
         with open(file, "r") as f, open("results.txt", "w") as results_file:
-            for i, line in enumerate(f):
+            ip_list = f.readlines()
+            for i, line in enumerate(ip_list):
                 ip = line.strip()
-                print("Scanning {} out of {} IPs: {}".format(i+1, len(f), ip))
-                os.system("nmap -sS {} >> results.txt".format(ip))
+                print(f"Scanning {i + 1} out of {len(ip_list)} IPs: {ip}")
+                # Instead of using os.system, consider using subprocess.run for better control
+                subprocess.run(["nmap", "-sS", ip], stdout=results_file, stderr=subprocess.PIPE)
     except FileNotFoundError:
-        print("File not found:", file)
+        print(f"File not found: {file}")
         sys.exit(1)
     except Exception as e:
-        print("Error occurred during scanning:", e)
+        print(f"Error occurred during scanning: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
@@ -52,6 +55,6 @@ if __name__ == "__main__":
     api = shodan.Shodan(SHODAN_API_KEY)
 
     if args.command == "search":
-        search(args.query)
+        search(api, args.query)
     elif args.command == "scan":
         scan(args.file)
