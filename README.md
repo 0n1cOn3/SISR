@@ -58,21 +58,25 @@ Contributors' names and contact info:
     TheSpeedX (Mail: ggspeedx29@gmail.com) 👤
 
 ### Version History
-    0.3
+
+    1.0.4
+        Updated script to be compatible with python 3.11
+        Refactored update script
+    1.0.3
         Some parts of SISR code has been refactored
         NEW: pip3 requirements added
 
-    0.2.1
+    1.0.2
         Added Update Functions for used packages
         Code optimization
         GUI changed
-    0.2
+    1.0.1
         Code optimization
         Added normal Script Mode for macOS
-    0.1.1
+    1.0.1-1
         New GUI ---> OS Choice Menu
         Bug fixing
-    0.1
+    1.0.0
         Initial Release
 
 ### License
