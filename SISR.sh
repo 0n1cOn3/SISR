@@ -6,7 +6,7 @@ trap 'echo "Aborted by user. Exit now... Goodbye!"' SIGINT
 while true; do
     clear
     echo "=============================="
-    echo "Shodan IP Scan Resulter V1.0.1"
+    echo "Shodan IP Scan Resulter V1.0.4"
     echo "=============================="
     echo "Made with <3 by 0n1cOn3"
     echo "Script only for test purposes"
