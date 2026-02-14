@@ -81,7 +81,7 @@ Contributors' names and contact info:
 
 ### License
 
-Yet unknown 🤔
+MIT License
 
 
 ### Acknowledgments
